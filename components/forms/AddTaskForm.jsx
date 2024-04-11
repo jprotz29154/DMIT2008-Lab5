@@ -39,7 +39,7 @@ function AddTaskForm({children, className}) {
 
 	if (state.message === 'success') {
 		toast(
-			<aside className="bg-emerald-200 text-zinc-900 rounded-lg py-6 text-center">
+			<aside className="bg-emerald-200 text-zinc-900 rounded-lg py-6 px-10 text-center">
 				<p> your toast message was saved successfully</p>
 			</aside>
 		)
