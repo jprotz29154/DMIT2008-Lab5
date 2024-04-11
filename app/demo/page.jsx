@@ -10,7 +10,7 @@ async function DemoPage({children}) {
 	// JSON array methods map filter sort... [{},{},{}]
 	// Vendor   API/SDK to get the data and parse the data.
 	const payload = await getToDoItems()
-	const tasks = Object.entries(payload.todos)
+	const tasks = Object.entries(payload.todos).reverse()
 
 	return (
 		<>
